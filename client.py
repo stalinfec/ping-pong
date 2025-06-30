@@ -52,6 +52,7 @@ BALL_IMG = transform.scale(image.load('images/Ball.png'), (20, 20))
 SCORE_BAR_LEFT = transform.scale(image.load('images/ScoreBar.png'), (350, 60))
 SCORE_BAR_RIGHT = transform.flip(transform.scale(image.load('images/ScoreBar.png'), (350, 60)), True, False)
 ball_motion_img = transform.scale(image.load('images/BallMotion.png'), (50, 35))
+
 # --- ЗВУКИ ---
 is_start_play_music = False
 lose_sound_played = False
